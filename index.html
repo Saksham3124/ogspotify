@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="sabki.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container flex black">
+      <div class="left border round">
+        <div class="close">
+          <img class="invert" src="svgs/close.svg" alt="" />
+        </div>
+        <div class="home grey round">
+          <div class="logo">
+            <img class="invert" src="svgs/logo.svg" alt="" />
+          </div>
+          <ul>
+            <li>
+              <img class="invert" src="svgs/home.svg" alt="Home" /><b>Home</b>
+            </li>
+            <li>
+              <img class="invert" src="svgs/search.svg" alt="Search" /><b
+                >Search</b
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="library grey round p1">
+          <div class="heading">
+            <img class="invert" src="svgs/library.svg" alt="Lib" />
+            <b>Your Library</b>
+          </div>
+
+          <div class="songlist">
+            <ul></ul>
+          </div>
+          <div class="footer">
+            <div>
+              <a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/privacy/"
+                ><span>Safety & Privacy Center</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/privacy-policy/"
+                ><span>Privacy Policy</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/cookies-policy/"
+                ><span>Cookies</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"
+                ><span>About Ads</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/accessibility/"
+                ><span>Accessibility</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right grey round">
+        <div class="header">
+          <div class="nav">
+            <img class="invert hamburger" src="svgs/hamburger.svg" alt="" />
+            <img class="invert logo1" src="svgs/logo.svg" alt="" />
+            <img class="invert back" src="svgs/back.svg" alt="" />
+            <img class="invert fwd" src="svgs/fwd.svg" alt="" />
+          </div>
+          <div class="buttons">
+            <a
+              class="signbtn"
+              href="https://www.spotify.com/in-en/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F&flow_ctx=6ae3dfe3-a74b-48e0-8bf0-0ec86d4b153b%3A1719493115"
+              ><span>Sign Up</span></a
+            >
+            <a
+              class="logbtn"
+              href="https://accounts.spotify.com/en-GB/login?continue=https%3A%2F%2Fopen.spotify.com%2F"
+              ><span>Log In</span></a
+            >
+          </div>
+        </div>
+        <div class="playlists">
+          <div class="abt">
+            <h2>Popular artists</h2>
+            <span>Show all</span>
+          </div>
+          <div class="artists">
+            <div class="suno">
+              <img src="artists/pritam.jpeg" alt="" />
+              <p>Pritam</p>
+              <span>Artist</span>
+            </div>
+            <div class="suno">
+              <img src="artists/arijit.jpeg" alt="" />
+              <p>Arijit Singh</p>
+              <span>Artist</span>
+            </div>
+            <div class="suno">
+              <img src="artists/rehman.jpeg" alt="" />
+              <p>A. R. Rahman</p>
+              <span>Artist</span>
+            </div>
+            <div class="suno">
+              <img src="artists/anirudh.jpeg" alt="" />
+              <p>Anirudh Ravichander</p>
+              <span>Artist</span>
+            </div>
+            <div class="suno">
+              <img src="artists/vishal.jpeg" alt="" />
+              <p>Vishal Mishra</p>
+              <span>Artist</span>
+            </div>
+            <div class="suno">
+              <img src="artists/sachin.jpeg" alt="" />
+              <p>Sachin-Jigar</p>
+              <span>Artist</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="albums">
+          <div class="abt">
+            <h2>Popular albums</h2>
+            <span>Show all</span>
+          </div>
+          <div class="bulk">
+            <div data-folder="English%20Remix" class="songs">
+              <div class="play2">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 20V4L19 12L5 20Z"
+                    stroke="#141B34"
+                    fill="#000"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <img src="sideka/engkabg.jpg" alt="" />
+              <p>English Remix</p>
+              <span>Shawn mendes,Chainsmokers...</span>
+            </div>
+            <div data-folder="Ek%20Tha%20Raja" class="songs">
+              <div class="play2">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 20V4L19 12L5 20Z"
+                    stroke="#141B34"
+                    fill="#000"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <img src="artists/a2.jpeg" alt="" />
+              <p>Ek Tha Raja</p>
+              <span>Badshah</span>
+            </div>
+            <div data-folder="ANIMAL" class="songs">
+              <div class="play2">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 20V4L19 12L5 20Z"
+                    stroke="#141B34"
+                    fill="#000"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <img src="artists/a3.jpeg" alt="" />
+              <p>ANIMAL</p>
+              <span>Manan bhardwaj,Vishal Mishra,Jaanie</span>
+            </div>
+            <div data-folder="Aashiqui%202" class="songs">
+              <div class="play2">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 20V4L19 12L5 20Z"
+                    stroke="#141B34"
+                    fill="#000"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <img src="artists/a5.jpeg" alt="" />
+              <p>Aashiqui 2</p>
+              <span>Mithoon,Ankit Tiwari,Jeet Gannguli</span>
+            </div>
+            <div data-folder="Rockstar" class="songs">
+              <div class="play2">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 20V4L19 12L5 20Z"
+                    stroke="#141B34"
+                    fill="#000"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <img src="sideka/rock.jpeg" alt="" />
+              <p>Rockstar</p>
+              <span>A.R.Rahman,Irshad Kamil</span>
+            </div>
+            <div data-folder="G.O.A.T" class="songs">
+              <div class="play2">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 20V4L19 12L5 20Z"
+                    stroke="#141B34"
+                    fill="#000"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <img src="sideka/cover.jpeg" alt="" />
+              <p>G.O.A.T + Moosetape</p>
+              <span>Diljit Dosanjh</span>
+            </div>
+            <div data-folder="Kabir%20Singh" class="songs">
+              <div class="play2">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 20V4L19 12L5 20Z"
+                    stroke="#141B34"
+                    fill="#000"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <img src="sideka/kabir.jpeg" alt="" />
+              <p>Kabir Singh</p>
+              <span>Various Artists</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="differentiator">
+        </div>
+
+        <div class="footeru">
+          <div class="footer1">
+            <div class="title">
+              <div class="titlec">
+                <p>Company</p>
+                <span>
+                  <a href="">About</p></a>
+                  <a href="">Jobs</p></a>
+                  <a href="">For the Record</p></a>
+                </span>
+              </div>
+              <div class="titlec">
+                <p>Communities</p>
+                <span>
+                  <a href="">For Artists</p></a>
+                  <a href="">Developers</p></a>
+                  <a href="">Advertising</p></a>
+                  <a href="">investors</p></a>
+                  <a href="">vendors</p></a>
+                </span>
+              </div>
+              <div class="titlec">
+                <p>Useful links</p>
+                <span>
+                  <a href="">Support</p></a>
+                  <a href="">Free Mobile App</p></a>
+                </span>
+              </div>
+              <div class="titlec">
+                <p>Spotify Plans</p>
+                <span>
+                  <a href="">Premium Individual</p></a>
+                  <a href="">Premium Duo</p></a>
+                  <a href="">Premium Family</p></a>
+                  <a href="">Premium Student</p></a>
+                  <a href="">Spotify Free</p></a>
+                </span> 
+              </div>
+              <div class="pics">
+                <a href="https://www.instagram.com/spotify" target="_blank" ><img src="svgs/ig.svg" alt="" /></a>
+                <a href="https://x.com/spotify" target="_blank" ><img src="svgs/twitter.svg" alt="" /></a>
+                <a href="https://www.facebook.com/Spotify" target="_blank" ><img src="svgs/facebook.svg" alt="" /></a>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="playbutton">
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+            <div class="combo">
+              <div class="songinfo"></div>
+              <div class="songbtn">
+                <img id="previous" src="svgs/previous.svg" alt="" />
+                <img id="play" src="svgs/play1.svg" alt="" />
+                <img id="next" src="svgs/next.svg" alt="" />
+              </div>
+              <div class="timevol">
+                <div class="songtime"></div>
+                <div class="volume">
+                  <img src="svgs/volume.svg" alt="" />
+                  <div class="range">
+                    <input type="range" name="range" id="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

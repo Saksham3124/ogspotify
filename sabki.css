@@ -1,0 +1,39 @@
+.flex {
+  display: flex;
+}
+.border {
+  margin: 3px;
+}
+.alignitem {
+  align-items: center;
+}
+.justify {
+  justify-content: center;
+}
+.grey {
+  background-color: #121212;
+}
+.black {
+  background-color: #000;
+}
+.round {
+  border-radius: 10px;
+}
+.m1 {
+  margin: 5px;
+}
+.p1 {
+  padding: 16px;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #222;
+}
